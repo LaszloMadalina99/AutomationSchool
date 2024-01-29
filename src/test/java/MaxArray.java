@@ -4,16 +4,16 @@ public class MaxArray {
 
     public static void main(String[] args) {
 
-        int[] maxnum = new int[20];
+        int[] maxnumb = new int[20];
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter 20 numbers: ");
         for (int i = 0; i < 5; i++) {
-            maxnum[i] = scanner.nextInt();
+            maxnumb[i] = scanner.nextInt();
 
         }
         scanner.close();
-        int maxnumber = max(maxnum);
+        int maxnumber = max(maxnumb);
         System.out.println("The biggest number is: " + maxnumber);
     }
 
