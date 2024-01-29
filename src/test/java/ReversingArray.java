@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class ReversingArray {
     public static void main(String[] args){
-        int[] myArray = new int[5];
+        int[] myArray = new int[10];
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert 5 numbers: ");
+        System.out.println("Insert 10 numbers: ");
         for(int i = 0; i<myArray.length; i++){
             int numbers = scanner.nextInt();
             myArray[i] = numbers;
