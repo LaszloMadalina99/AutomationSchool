@@ -8,7 +8,7 @@ public class TwoArrays {
         String[] mystring = new String[10];
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Introdu 10 stringuri: ");
+        System.out.println("Insert 10 stringuri: ");
 
         for (int i = 0; i < 10; i++) {
             String stringul_meu = scanner.nextLine();
