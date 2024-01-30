@@ -1,3 +1,4 @@
+//2. Input four numbers from the keyboard, and display the maximum of them.
 import java.util.Scanner;
 public class MaxNumber {
     public static void main(String[] args){

@@ -1,3 +1,4 @@
+//1. Enter two numbers from the keyboard and display the minimum of them.
 import java.util.Scanner;
 
 public class MinNumber {
